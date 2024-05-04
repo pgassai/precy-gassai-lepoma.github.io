@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Arial', sans-serif;*/
+    box-sizing: border-box;
+}
+
+                
+
+body{
+    background-color: #CFE8D6;
+    border: 0px dotted #7FD1AE;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /*border: 3px dotted #7FD1AE;*/
+    z-index: 8500;
+}
+.logo{
+    margin-left: 3%;
+}w
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    background: #E8D2EB;
+    position: relative;
+    overflow: hidden;
+}
+.menu-icon {
+    font-size: 20px;
+    font-family: 'playfair dispaly';
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.menu-box{
+    width: 60%;
+    background: #FFFF;
+    position: absolute;
+    top: -100%;
+    left: 10%;
+    padding: 50px 100px;
+    margin-left: 20%;
+    transition: top 1s;
+    z-index: 8000;
+    position: fixed;
+
+}
+.right-links{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;   
+}
+
+.right-links img {
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: fit-content;
+    margin: 30px 0;
+    font-size: 36px;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
+}
+
+/*.menu-links a::after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: #FFC1CE;
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}*/
+
+.menu-links a:hover{
+    font-weight: 1000;
+    color: #FFC1CE;
+}
+
+/*.menu-links a:hover::after{
+    display: inline-block;
+}*/
+
+/*Section frise chronologique */
+.titre-page h1{
+    font-family: 'playfair display';
+    font-size: 100px ;
+    color: #000;
+    text-align: center ; 
+    margin: 2.6%;
+}
+
+/* 
+ * ie7.js makes selectors work on IE
+ * https://code.google.com/p/ie7-js/
+ */
+
+ /*#48b379: #48b379;
+ *black: black;
+ *#f98262: #f98262;
+ */
+ @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+ 
+ main {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 5%;
+   font-size: 100%;
+   font-family: 'Noto Sans', sans-serif;
+   color: black;
+   background: #CFE8D6;
+ }
+ h2 {
+   margin: 3em 0 0 0;
+   font-size: 1.5em;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+ }
+ #timeline {
+   list-style: none;
+   margin: 50px 0 30px 120px;
+   padding-left: 30px;
+   border-left: 8px solid black;
+   li {
+     margin: 40px 0;
+     position: relative;
+   }
+   p {
+     margin: 0 0 15px;
+   }
+ }
+ .date {
+   margin-top: -15px;
+   top: 50%;
+   left: -165px;
+   font-size: 0.95em;
+   line-height: 20px;
+   position: absolute;
+   text-align: center;
+ }
+ .circle {
+   margin-top: -10px;
+   top: 50%;
+   left: -44px;
+   width: 10px ;  
+   height: 10px;
+   background: #CFE8D6;
+   border: 5px solid black;
+   border-radius: 50%;
+   display: block;
+   position: absolute;
+ }
+ .content {
+   max-height: 20px;
+   padding: 50px 20px 0;
+   border-color: transparent;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 0.5em;
+   position: relative;
+   &:before, &:after {
+     content: "";
+     width: 0;
+     height: 0;
+     border: solid transparent;
+     position: absolute;
+     pointer-events: none;
+     right: 100%;
+   }
+   &:before {
+     border-right-color: inherit;
+     border-width: 20px;
+     top: 50%;
+     margin-top: -20px;
+   }
+   &:after {
+     border-right-color: #CFE8D6;
+     border-width: 17px;
+     top: 50%;
+     margin-top: -17px;
+   }
+   p {
+    padding-left: 2%;
+     max-height: 0;
+     color: transparent;
+     text-align: justify;
+     word-break: break-word;
+     hyphens: auto;
+     overflow: hidden;
+   }
+ }
+ label{
+   font-size: 1.3em;
+   position: absolute;
+   z-index: 100;
+   top: 20px;
+   -webkit-transition: -webkit-transform 0.2s linear;
+ }
+ .radio {
+   display: none;
+ }
+ .radio:checked {
+   & + .relative {
+     label {
+       cursor: auto;
+       -webkit-transform: translateX(42px);
+     }
+     .circle {
+        background: #f98262; 
+     }
+   }
+   & ~ .content {
+     max-height: 300px;
+     border-color: black;
+     margin-right: 20px;
+     -webkit-transform: translateX(20px);
+     -webkit-transition: max-height 0.4s linear, border-color 0.5s linear, -webkit-transform 0.2s linear;
+     p {
+       max-height: 200px;
+       color: black;
+       -webkit-transition: color 0.3s linear 0.3s;
+     }
+   }
+ }

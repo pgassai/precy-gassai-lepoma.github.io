@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+		<title> Precy Gassai Lepoma - Portfolio </title>
+	    <meta charset = "UTF-8">  
+		<link rel = "stylesheet" type= "text/css" href= "CSS\style-skills.css">
+        <link href="https://fonts.cdnfonts.com/css/kage-freebies" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/kage-freebies');
+        </style>
+                
+    </head>
+
+    <body> 
+        <div id = 'app'>
+<!-- barre  de navigation-->
+            <header class>
+                <div class="container">
+                  <a href="index.html"><img src = "Image/logo-1-unscreen.gif" class="logo" width="80"></a>
+                    <!--<img src = "Image/menu.png" class="menu-icon" onclick="openmenu()">-->
+                    <span class="menu-icon" onclick="openmenu()">MENU</span>
+                   
+                </div>
+            </header>
+<!-- Menu -->
+            <div class="container2">
+                <div class="menu-box" id="menu">
+                    <div class="right-links"> 
+                        <img src="Image/close.png" onclick="closemenu()">
+                    </div>
+                    <div class="menu-links">
+                        <a href="index_parcours.html">PARCOURS</a>
+                        <a href="index-exp.html">EXPERIENCE</a>
+                        <a href="index-skills.html">COMPETENCES</a>
+                        <a href="index-projet.html">PORTFOLIO</a>
+                        <a href="index-contact.html">ME CONTACTER</a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var menu = document.getElementById("menu");
+                
+                function closemenu(){
+                    menu.style.top = " -100vh"
+                }
+
+                function openmenu(){
+                    menu.style.top = " 17%"
+                }
+            </script>
+            <main id= "page-parcours" class = "page_wrapper" style = "opacity: 1;">
+                <section class = 'titre-page'> 
+                    <h1> COMPETENCES</h1>
+                </section>
+                <div class="skills" id="skills">
+                    <div class="skills-title">
+                      <h2>Mes compétences</h2>
+                    </div>
+                    <div class="skills-list">
+                      <ul>
+                        <li>Analyse, exploitation en modélisation statistique de données </li>
+                        <li>Reporting, visualisation de données  </li>
+                        <li>Automatisation des traitements</li>
+                        <li>Conception de base de données</li>
+                        <li>Transformation et nettoyage des données (ETL)</li>
+                      </ul>
+                      <ul>
+                        <li>Programmation orientée objet (POO)</li>
+                        <li>Programmation statistique</li>
+                        <li>Programmation web</li>
+                      </ul>
+                      <ul>
+                        <li>Travail en autonomie et en équipe</li>
+                        <li>Rigeur</li>
+                        <li>Organisation</li>
+                        <li>Adaptabilité</li>
+                        <li>Communication</li>
+                      </ul>
+                    </div>
+                  </div>
+                    <div class="competences" id="competences">
+                        <div class="competences-titre">
+                          <h2> Outils et Langages maîtrisés</h2>
+                        </div>
+                        <div class="competences2">
+                          <div class="competence">
+                            <a href="https://fr.wikipedia.org/wiki/Structured_Query_Language"><img src="Image/sql.png"></a>
+                          </div>
+                          <div class="competence">
+                            <a href="https://www.python.org/about/"><img src="Image/Python.png"></a>
+                          </div>
+                          <div class="competence-bis">
+                            <a href="https://www.tableau.com/fr-fr/why-tableau"><img src="Image/Tableau.png"></a>
+                          </div>
+                          <div class="competence-bis">
+                            <a href="https://www.microsoft.com/fr-fr/microsoft-365/products-apps-services"><img src="Image/office.png"></a>
+                          </div>
+                          <div class="competence">
+                            <a href="https://www.microsoft.com/fr-fr/power-platform/products/power-bi#Use-cases"><img src="Image/Power_BI.png"></a>
+                          </div>
+                          <div class="competence-bis">
+                            <a href="https://fr.wikipedia.org/wiki/RStudio"><img src="Image/RStudio.png"></a>
+                          </div>
+                          <div class="competence-bis">
+                            <a href="https://www.sas.com/fr_fr/company-information/why-sas.html"><img src="Image/SAS.png"></a>
+                          </div>
+                          <div class="competence-bis">
+                            <a href="https://www.pierre-giraud.com/html-css-apprendre-coder-cours/definition-utilisation/"><img src="Image/html.png"></a>
+                          </div>
+                          <div class="competence">
+                            <a href="https://fr.wikipedia.org/wiki/C%2B%2B"><img src="Image/C++.png"></a>
+                          </div>
+                        </div>
+                      </div>
+            </main>

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Arial', sans-serif;*/
+    box-sizing: border-box;
+}
+
+                
+
+body{
+    background-color: #FCD7D1;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /*border: 3px dotted #7FD1AE;*/
+    z-index: 8500;
+}
+.logo{
+    margin-left: 3%;
+}w
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    background: #E8D2EB;
+    position: relative;
+    overflow: hidden;
+}
+.menu-icon {
+    font-size: 20px;
+    font-family: 'playfair dispaly';
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.menu-box{
+    width: 60%;
+    background: #FFFF;
+    position: absolute;
+    top: -100%;
+    left: 10%;
+    padding: 50px 100px;
+    margin-left: 20%;
+    transition: top 1s;
+    z-index: 8000;
+    position: fixed;
+
+}
+.right-links{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;   
+}
+
+.right-links img {
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: fit-content;
+    margin: 30px 0;
+    font-size: 36px;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
+}
+
+/*.menu-links a::after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: #FFC1CE;
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}*/
+
+.menu-links a:hover{
+    font-weight: 1000;
+    color: #FFC1CE;
+}
+
+/*.menu-links a:hover::after{
+    display: inline-block;
+}*/
+
+
+/* Main section */
+.page_wrapper{
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+ }
+ 
+.titre-page h1{
+    font-family: 'playfair display';
+    font-size: 100px ;
+    color: #000;
+    text-align: center ; 
+    margin: 2.6%;
+}
+/* CSS COMPETENCES DIV */
+
+.competences{
+    position: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.competences-titre{
+    color: #373741;
+}
+
+.competences2{
+    /* border: solid 10px;
+    border-color: aliceblue; */
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    width: 90%;
+    margin-left:0;
+    top: 50%;
+}
+
+.competence{
+    width: 75px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+    height: 75px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+    /*overflow: visible; /* Optionnel : pour cacher tout dépassement d'image */
+}
+.competence-bis img{
+    width: auto;
+    height: 60%;
+    object-fit: cover;
+}
+.competence img{
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Optionnel : ajuste l'image tout en préservant ses proportions */
+
+}
+.competence p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 22%;
+}
+
+.competence2 li:hover {
+    transform: scale(1.05); /* Agrandissement de 5% lors du survol */
+    transition: transform 0.3s ease; /* Animation fluide de 0.3 seconde */
+}
+
+/* CSS Skills DIV */
+.skills {
+    display: flex; /* Affiche les compétences en mode flex */
+    flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+    justify-content: space-around; /* Répartit les éléments de manière égale avec un espace autour */
+    align-items: flex-start; /* Alignement des éléments sur le côté supérieur */
+    padding: 40px; /* Ajoute un espace intérieur de 20 pixels */
+    margin-top: 0px; /* Ajoute une marge en haut de 20 pixels */
+  }
+  
+  /* Titre des compétences */
+  /* Style du titre des compétences */
+  .skills-title {
+    width: 100%; /* Largeur de 100% */
+    text-align: center; /* Alignement du texte au centre */
+    margin-bottom: 30px; /* Marge inférieure de 30 pixels */
+    color: black; /* Couleur du texte */
+  }
+  
+  /* Liste des compétences */
+  .skills-list {
+    display: flex; /* Affiche la liste des compétences en mode flex */
+    flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+  }
+  
+  /* Style du titre de chaque compétence */
+  .skills-list h3 {
+    text-align: center; /* Alignement du texte au centre */
+    margin-bottom: 40px; /* Marge inférieure de 40 pixels */
+    width: 100%; /* Largeur de 100% */
+    color: #373741; /* Couleur du texte */
+  }
+  
+  /* Style de la liste des compétences */
+  .skills-list ul {
+    list-style-type: none; /* Supprime les puces de liste */
+    padding: 10px; /* Ajoute un espace intérieur de 10 pixels */
+  }
+  
+  /* Style de chaque compétence */
+  .skills-list li {
+    color: #373741; /* Couleur du texte */
+    padding: 10px; /* Ajoute un espace intérieur de 10 pixels */
+    margin: 10px; /* Marge extérieure de 10 pixels */
+    border-radius: 5px; /* Ajoute un arrondi aux coins */
+    text-align: center; /* Alignement du texte au centre */
+    width: 250px; /* Largeur de 250 pixels */
+  }
+  
+  /* Style des compétences impaires */
+  .skills-list li:nth-child(odd) {
+    background-color: #D0BAED; /* Couleur de fond pour les compétences impaires */
+  }
+  .skills-list li:hover {
+    transform: scale(1.05); /* Agrandissement de 5% lors du survol */
+    transition: transform 0.3s ease; /* Animation fluide de 0.3 seconde */
+  }
+  /* FIN CSS Skills DIV */

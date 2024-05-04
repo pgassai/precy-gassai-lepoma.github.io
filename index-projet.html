@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+		<title> Precy Gassai Lepoma - Portfolio </title>
+	    <meta charset = "UTF-8">  
+		<link rel = "stylesheet" type= "text/css" href= "CSS/style-projet.css" >
+    </head>
+
+    <body> 
+        <div id = 'app'>
+<!-- barre  de navigation-->
+        <header>
+            <div class="container">
+                <div class="logo-wrapper">
+                  <a href="index.html"><img src = "Image/logo-1-unscreen.gif" class="logo" width="80"></a>
+                </div>
+                <span class="menu-icon" onclick="openmenu()">MENU</span>
+            </div>
+        </header>
+
+<!-- Menu -->
+            <div class="container2">
+                <div class="menu-box" id="menu">
+                    <div class="right-links"> 
+                        <img src="Image/close.png" onclick="closemenu()">
+                    </div>
+                    <div class="menu-links">
+                        <a href="index_parcours.html">PARCOURS</a>
+                        <a href="index-exp.html">EXPERIENCE</a>
+                        <a href="index-skills.html">COMPETENCES</a>
+                        <a href="index-projet.html">PORTFOLIO</a>
+                        <a href="index-contact.html">ME CONTACTER</a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var menu = document.getElementById("menu");
+                
+                function closemenu(){
+                    menu.style.top = " -100vh"
+                }
+
+                function openmenu(){
+                    menu.style.top = " 17%"
+                }
+            </script>
+            <main id= "page-parcours" class = "page_wrapper" style = "opacity: 1;">
+                <section class = 'titre-page'> 
+                    <h1> PROJETS </h1>
+                </section>
+
+                <section class="articles">
+                    <article>
+                      <div class="article-wrapper">
+                        <figure>
+                          <img src="Image/access.jpg" alt="" />
+                        </figure>
+                        <div class="article-body">
+                          <h2>Conception et implémentation de base de données</h2>
+                          <p>
+                            Création d'une base de données définis par des règles métier et un jeux de données à intégrer.
+                          </p>
+                          <a href="#popup1" class="read-more">
+                            Read more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </article>
+                    <article>
+                  
+                      <div class="article-wrapper">
+                        <figure>
+                          <img src="Image/Rapport projet_LOUFOUA_GASSAI.png" alt="" />
+                        </figure>
+                        <div class="article-body">
+                          <h2>Description et prévision de données temporelles </h2>
+                          <p>
+                            
+                          Analyses de données temporelles sur la production d'électricité aux États-Unis sur 22 ans, provenant de l'EIA, afin de prédire la production d'électricité à partir des autres gaz en kw/H pour l'année 2023.
+                          </p>
+                          <a href="#popup2" class="read-more">
+                            Read more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </article>
+                    <article>
+                  
+                      <div class="article-wrapper">
+                        <figure>
+                          <img src="Image/Web-scraping.png" alt="" />
+                        </figure>
+                        <div class="article-body">
+                          <h2>Collecte automatisée de données web </h2>
+                          <p>
+                            Automatisation de la collecte et de l'intégration de données provenant du web dans un entrepôt de données, dans le cadre du projet universitaire.
+                          </p>
+                          <a href="#popup3" class="read-more">
+                            Read more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </article>
+                    <article>
+                  
+                        <div class="article-wrapper">
+                          <figure>
+                            <img src="Image/quickdraw.png" alt="" />
+                          </figure>
+                          <div class="article-body">
+                            <h2>Classifacteur d'image </h2>
+                            <p>
+                              Projet dans lequel j'entreprends de comprendre le processus de classification d'images.
+                            </p>
+                              <a href="#popup4" class="read-more">
+                                Read more <span class="sr-only">about this is some title</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </article>
+                        <article>
+              </section>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                      <h2></h2>
+                      <a class="close" href="#">&times;</a>
+                    <div class="content">
+                      <h4> Présentation du projet</h4>
+                      <br>
+                      <p>
+                        Dans le cadre d’un projet universitaire SAE (Situation d’apprentissage et d’évaluation), notre équipe de quatre membres avait pour mission de créer une base de données en accord avec un cahier des charges détaillant les règles métier, les besoins et contraintes, ainsi que les jeux de données à intégrer. Notre objectif principal était de maîtriser et appliquer les différentes étapes nécessaires à la mise en place d'une base de données relationnelle.
+                      </p>
+                      <br>
+
+                      <br>
+                      <h4> Démarche</h4>
+                      <br>
+                      <p>
+                        Pour mener à bien ce projet, nous avons débuté par un processus de traitement des données, comprenant le nettoyage afin d'éliminer les données incohérentes et de mieux appréhender la structure des données pour guider notre réflexion quant à la modélisation des données, en vue de leur exploitation. Ensuite, nous avons élaboré un modèle conceptuel des données (MCD) suivi d'un modèle logique des données (MLD). Ces modèles nous ont permis de concevoir et d'implémenter la base de données dans un SGBD spécifique. Enfin, nous avons réalisé et documenté un audit détaillé pour assurer la qualité, la cohérence et l'intégrité des données.
+                      </p>
+                      <br>
+
+                      <br>
+                      <h4> Outils et/ou langage utilisé </h4>
+                      <p>
+                        Access, Excel
+                      </p>
+                      <br>
+                      <img src="Image/preuve1.PNG" width="400">
+                      </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <h2></h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                      <h4> Présentation du projet</h4>
+                      <br>
+                      <p>
+                        Dans le cadre du projet universitaire SAE "Description et prévision de données temporelles", notre équipe se focalise sur l'analyse et la prévision de séries chronologiques de la production d'électricité aux États-Unis sur 22 ans, de 2001 à 2022. Ces données, provenant de l'Administration de l'information sur l'énergie (EIA), couvrent différents types de production électrique, notamment le charbon, le pétrole, le gaz naturel, les énergies renouvelables, etc. Notre objectif est d'analyser les données mensuelles de la production d'électricité provenant des autres gaz en kw/H afin de fournir une prévision pour l’année suivante 2023.
+                      </p>
+                      <br>
+
+                      <br>
+                      <h4> Démarche</h4>
+                      <br>
+                      <p>
+                        Nous débutons par une analyse des tendances de la série temporelle à l'aide de filtres de moyennes mobiles et de courbes de régression des moyennes annuelles. Ensuite, nous calculons et représentons graphiquement les coefficients saisonniers, procédons à la décomposition de la série, et analysons la série corrigée des variations saisonnières, en commentant les résultats et identifiant les valeurs mal ajustées par le modèle en étudiant les résidus.<br>
+                        Pour prévoir la production d'électricité pour 2023, nous utilisons trois méthodes différentes : la méthode Alternative, la méthode Holt-Winters et la méthode ARMA. De plus, nous effectuons une rétro-prévision pour 2022 en utilisant les données de 2001 à 2021. Nous évaluons la performance et la précision de ces méthodes en calculant l'erreur quadratique moyenne pour chacune d'entre elles.<br> Les résultats nous ont permis d’identifier la méthode Alternative comme la plus adéquate dans ce cas précis.
+
+                      </p>
+                      <br>
+
+                      <br>
+                      <h4> Outils et/ou langage utilisé </h4>
+                      <br>
+                      <p>
+                        Rstudio (library tseries, forecast) 
+                        
+                      </p>
+                      <img src="Image/preuve-graph.png" width="300">
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <h2></h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                      <h4> Présentation du projet</h4>
+                      <br>
+                      <p>
+                        Dans le cadre du projet universitaire SAÉ "Collecte automatisée de données web", notre équipe se focalise sur l'automatisation de la collecte et de l'intégration de données provenant du web dans un entrepôt de données. Cette mission exige une compréhension approfondie des données web ainsi que l'utilisation d'interfaces de programmation d'application (API) pour récupérer les données en ligne.
+                      </p>
+                      <br>
+
+                      <br>
+                      <h4> Démarche</h4>
+                      <br>
+                      <p>
+                        Notre démarche débute par la modélisation et la création de la structure de l'entrepôt de données. Ensuite, nous procédons à l'intégration des données fournies, notamment celles de la base StockEtablissement SIRENE, puis nous développons un programme en Python pour les manipuler (nettoyage, prétraitement, jointures, etc.) en vue de les stocker dans l'entrepôt de données préalablement créé.<br>
+                        Nous avons également eu recours à l'API Adresse pour convertir une adresse en coordonnées géographiques. Une requête HTTP est envoyée à l'API avec une adresse spécifique préalablement traitée, et les résultats sont obtenus au format JSON, puis intégrés dans notre base de données.<br>
+                        Enfin, nous explorons le web-scraping avec Python pour extraire des informations à partir de Google Maps en utilisant les bibliothèques Selenium et BeautifulSoup. Le contenu HTML de la page est extrait, nous permettant ainsi de récupérer l'adresse e-mail de l'établissement si celle-ci est renseignée. Ces informations sont ensuite stockées et enrichissent notre base de données. 
+
+                      </p>
+                      <br>
+
+                      <br>
+                      <h4> Outils et/ou langage utilisé </h4>
+                      <p>
+                        Python ( bibliothèque Pandas, Requests, Selenium, BeautifaulSoup), Chromedriver, Google Maps, API Adresse (api-adresse.data.gouv.fr)
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div id="popup4" class="overlay">
+              <div class="popup">
+                  <h2></h2>
+                  <a class="close" href="#">&times;</a>
+                  <div class="content">
+                    <h4> Présentation du projet</h4>
+                    <br>
+                    <p>
+                      Pour mon projet personnel, j'ai entrepris de créer un système de classification d'images pour reconnaître des dessins. Mon objectif était de comprendre le processus de classification d'images afin de développer un jeu similaire à "Quick, Draw!" en utilisant TensorFlow.
+                      <br>Quick, Draw!" est un jeu en ligne qui met au défi les joueurs de dessiner un croquis, puis une intelligence artificielle tente de deviner ce que représentent les dessins.
+
+                    </p>
+                    <br>
+
+                    <br>
+                    <h4> Démarche</h4>
+                    <br>
+                    <p>
+                      Ma démarche a débuté par le développement d'un code Python utilisant Flask pour construire une application web. Ensuite, j'ai intégré un modèle de réseau de neurones convolutifs (CNN) pré-entraîné, InceptionV3, pour la classification d'images. J'ai également développé des fonctions pour prétraiter les images et prédire le dessin soumis par l'utilisateur.<br>
+                      Par la suite, j'ai créé un code HTML pour définir un canvas où l'utilisateur peut dessiner. Ce canvas est accompagné d'un bouton permettant de télécharger le dessin et d'un paragraphe affichant le résultat de la prédiction.<br>
+                    </p>
+                    <br>
+
+                    <br>
+                    <h4> Outils et/ou langage utilisé </h4>
+                    <p>
+                      Python ( bibliothèque TensorFlow, ,TensorFlow.js Flask, PIL, NumPy), Navigateur Web, HTML<br>
+                      <img src="Image/preuve4bis.PNG" width="300">
+                       <img src="Image/preuve4.PNG" width="300">
+
+                    </p>
+                  </div>
+              </div>
+          </div>
+
+            </main>
+    </body>
+</html>

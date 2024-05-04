@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+		<title> Precy Gassai Lepoma - Portfolio </title>
+	    <meta charset = "UTF-8">  
+		<link rel = "stylesheet" type= "text/css" href= "CSS\style1.css" >
+        <link href="https://fonts.cdnfonts.com/css/kage-freebies" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/kage-freebies');
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+        </style>
+    </head>
+
+    <body> 
+        <div id = 'app'>
+<!-- barre  de navigation-->
+            <header class>
+                <div class="container">
+                    <a href="index.html"><img src = "Image/logo-1-unscreen.gif" class="logo" width="80"></a>
+                    <!--<img src = "Image/menu.png" class="menu-icon" onclick="openmenu()">-->
+                    <span class="menu-icon" onclick="openmenu()">MENU</span>
+                   
+                </div>
+            </header>
+<!-- Menu -->
+            <div class="container2">
+                <div class="menu-box" id="menu">
+                    <div class="right-links"> 
+                        <img src="Image/close.png" onclick="closemenu()">
+                    </div>
+                    <div class="menu-links">
+                        <a href="index_parcours.html">PARCOURS</a>
+                        <a href="index-exp.html">EXPERIENCE</a>
+                        <a href="index-skills.html">COMPETENCES</a>
+                        <a href="index-projet.html">PORTFOLIO</a>
+                        <a href="index-contact.html">ME CONTACTER</a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var menu = document.getElementById("menu");
+                
+                function closemenu(){
+                    menu.style.top = " -100vh"
+                }
+
+                function openmenu(){
+                    menu.style.top = " 17%"
+                }
+            </script>
+
+<!-- contenu principal -->
+            <main id= "page_home" class="page_wrapper" style = "opacity: 1;">
+<!-- section avec le nom  -->
+                <section class = "page">
+                    <main class="container-page">
+                        <div class="container-page increased-font-size">
+                            <!-- Votre contenu -->
+                        
+                            <p>Hello 👋 I'm</p>
+                            <section class="animation">
+                            <div class="first"><div>Precy Gassai-Lepoma</div></div>
+                            <div class="second"><div> Data science student</div></div>
+                            <div class="third"><div>Data analyst</div></div>
+                        </div>
+                    </section>
+        
+                    <section class="logo-scroll">
+                            <a href="#about"><img src="Image/logo-scroll.gif" class = "logo-scrollimg" width="80"></a>
+                        
+                    </section>
+                        
+            
+                </section>
+<!-- section about   -->
+                <section id = "about" class = "About">
+                    <div class = "about-wrapper">
+                        <p class ="about_name"> QUI EST <br>PRECY ?</p>
+                    </div>
+                    <div class="content-container">
+                        <div class="img-container">
+                            <img src="Image/moi2.jpg" class="pic-data">
+                        </div>
+                        <div class="description">
+                            <p>
+                                Bienvenue sur mon portfolio ! Je m’appelle Precy Gassai-Lepoma, j’ai 23 ans et je suis actuellement un Bachelor Universitaire de Technologie (BUT) en Science de Données, en alternance. J'ai toujours été passionnée par l'informatique et les données, ce qui m'a poussée à explorer différents domaines comme le développement web, l'analyse de données, l'informatique décisionnelle et le machine learning.<br>
+                                <br>
+                                Mon objectif est de me spécialiser davantage dans les technologies liées à la science des données, en développant mes compétences en analyse avancée, en modélisation prédictive et en apprentissage automatique.<br>
+                                <br>
+                                Dans ce portfolio, vous pourrez découvrir mes projets, mes réalisations et mes compétences, qui témoignent de mon parcours d'apprentissage continu et de mon engagement envers l'excellence dans le domaine de la science des données. Je suis vraiment excitée à l'idée de partager mon travail avec vous et de contribuer, à ma manière, à faire progresser cette discipline fascinante.<br>
+                                <br>
+                                N'hésitez pas à parcourir mon portfolio et à me contacter si vous voulez en savoir plus sur mes projets ou si vous avez des idées de collaborations. <br> 
+                                <br>
+                                Merci beaucoup de votre visite !
+
+                            </p>
+
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- section about   -->
+
+                <section class = "bas"></section>
+            </main>
+        </div>
+    </body>
+
+</html>

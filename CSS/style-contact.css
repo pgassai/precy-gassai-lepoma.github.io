@@ -1,0 +1,220 @@
+body{
+    background-color: #FCD7D1;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /*border: 3px dotted #7FD1AE;*/
+    z-index: 8500;
+}
+.logo{
+    margin-left: 3%;
+}w
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    background: #E8D2EB;
+    position: relative;
+    overflow: hidden;
+}
+.menu-icon {
+    font-size: 20px;
+    font-family: 'playfair dispaly';
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.menu-box{
+    width: 60%;
+    background: #FFFF;
+    position: absolute;
+    top: -100%;
+    left: 10%;
+    padding: 50px 100px;
+    margin-left: 20%;
+    transition: top 1s;
+    z-index: 8000;
+    position: fixed;
+
+}
+.right-links{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;   
+}
+
+.right-links img {
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: fit-content;
+    margin: 30px 0;
+    font-size: 36px;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
+}
+
+/*.menu-links a::after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: #FFC1CE;
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}*/
+
+.menu-links a:hover{
+    font-weight: 1000;
+    color: #FFC1CE;
+}
+
+/*Main section*/
+.titre-page h1{
+    font-family: 'playfair display';
+    font-size: 100px ;
+    color: #000;
+    text-align: center ; 
+    margin: 2.6%;
+}
+/*CSS formulaire*/
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .text-black {
+    color: #000; }
+  
+  .content {
+    padding: 7rem 0; }
+  
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700; }
+  
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff; }
+  
+  .form-control {
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000; }
+  
+  .col-form-label {
+    color: #000; }
+  
+  .btn, .form-control, .custom-select {
+    height: 50px; }
+  
+  .custom-select:active, .custom-select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000; }
+  
+  .heading {
+    color: #888;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+    font-weight: 400; }
+  
+  .btn {
+    color: #fff;
+    border: none;
+    border-radius: 4px !important;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1) !important; }
+    .btn:hover {
+      color: #fff; }
+    .btn:active, .btn:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  
+  .box {
+    padding: 40px;
+    background: #fff;
+    -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08); }
+    .box h3 {
+      font-size: 14px;
+      margin-bottom: 30px;
+      text-align: center; }
+  
+  label.error {
+    font-size: 12px;
+    color: red; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  #form-message-warning {
+    color: #B90B0B; }
+  
+  #form-message-success {
+    color: #55A44E;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+  
+  .submitting {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000; }
+  
+    .btn-CV{
+      color: #000;
+      font-size: 1.2em;
+      font-weight: 800;
+      font-weight: bold;
+      display:inline-block;
+      margin: 0 43% 0 43%;
+      padding: 15px 25px;
+      border: solid 3px;
+      border-color: #000;
+      border-radius: 30px;
+    }
+    
+    .btn-CV:hover{
+      color: black;
+      text-decoration: none;
+      background-color: #AEE0BC;
+      transition: .7s ease all;
+    }
+  .git-logo{
+    align-items: center;
+    display: flex; 
+  }
+  
+  .linkscontact{
+    width: 50px;
+    height: 50px ;
+  }

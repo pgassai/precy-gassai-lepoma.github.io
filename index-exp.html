@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+		<title> Precy Gassai Lepoma - Portfolio </title>
+	    <meta charset = "UTF-8">  
+		<link rel = "stylesheet" type= "text/css" href= "CSS\style-exp.css" >
+        <link href="https://fonts.cdnfonts.com/css/kage-freebies" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/kage-freebies');
+        </style>
+                
+    </head>
+
+    <body> 
+        <div id = 'app'>
+<!-- barre  de navigation-->
+            <header class>
+                <div class="container">
+                    <a href="index.html"><img src = "Image/logo-1-unscreen.gif" class="logo" width="80"></a>
+                    <!--<img src = "Image/menu.png" class="menu-icon" onclick="openmenu()">-->
+                    <span class="menu-icon" onclick="openmenu()">MENU</span>
+                   
+                </div>
+            </header>
+<!-- Menu -->
+            <div class="container2">
+                <div class="menu-box" id="menu">
+                    <div class="right-links"> 
+                        <img src="Image/close.png" onclick="closemenu()">
+                    </div>
+                    <div class="menu-links">
+                        <a href="index_parcours.html">PARCOURS</a>
+                        <a href="index-exp.html">EXPERIENCE</a>
+                        <a href="index-skills.html">COMPETENCES</a>
+                        <a href="index-projet.html">PORTFOLIO</a>
+                        <a href="index-contact.html">ME CONTACTER</a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var menu = document.getElementById("menu");
+                
+                function closemenu(){
+                    menu.style.top = " -100vh"
+                }
+
+                function openmenu(){
+                    menu.style.top = " 17%"
+                }
+            </script>
+            <main id= "page-parcours" class = "page_wrapper" style = "opacity: 1;">
+                <section class = 'titre-page'> 
+                    <h1> EXPÉRIENCES PROFESIONNELLES</h1>
+                </section>
+<!-- Frise parcours -->
+                <section class = "presentation-parcours">
+                    <h2></h2>
+                    <ul id='timeline'>
+                        <li class='work'>
+                            <input class='radio' id='work5' name='works' type='radio' checked>
+                            <div class="relative">
+                            <label for='work5'>Data Analyst - OPCO 2i (alternance)</label>
+                            <span class='date'>Septembre 2023 <br> - Present <br> <img src="Image/opco2i.png" width="50"></span>
+                            <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                            <p>
+                                <br> 
+                                - Aider à la gestion et à la mise à jour des outils d’observation (atlas desétablissements, baromètre mensuel, tableaux de bord);<br> 
+                                - Réaliser des analyses statistiques sur l’évolution de l’emploi dans l’industrie (évolution du nombre de salariés et deleurs caractéristiques - âge, sexe, métiers, qualifications, etc.) Réaliser des représentations graphiques, y compris la cartographie, et interpréter les résultats;<br> 
+                                - Participer au développement d'un outil de modélisation statistique pour évaluer les besoins en alternants des entreprises, impliquant la création de bases de données, le paramétrage du modèle, ainsi que l'analyse et la valorisation des résultats obtenus.
+
+                                
+                            </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' id='work3' name='works' type='radio'>
+                            <div class="relative">
+                            <label for='work3'>Agent d’acceuil et de surveillance - Arc de Triomphe (contrat étudiant)</label>
+                            <span class='date'>Avril <br> - Septembre 2023<br> <img src="Image/cmn.png" width="100"></span>
+                            <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                            <p>
+                                - Accueillir et renseigner les visiteurs;
+                                <br>
+                                - Effectuer le contrôle des sac et des billets;
+                                <br>
+                                - Appliquer les consignes de sécurité en cas de situation d’urgence;
+                                <br>
+                                - Veiller au bon déroulement des manifestations temporaires et événements organisés.
+                            </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' id='work4' name='works' type='radio'>
+                            <div class="relative">
+                            <label for='work4'>Conseillère de vente - BA&SH (contrat étudiant)</label>
+                            <span class='date'>Decembre 2022 <br> - Mars 2023 <br> <img src="Image/Bash.png" width="60"> </span>
+                            <span class='circle'> </span>
+                            </div>
+                            <div class='content'>
+                            <p>
+                                - Accueillir et conseiller la clientèle; <br>
+                                - Développer les ventes;<br>
+                                - Organiser les rayons et effectuer le réassort;<br>
+                                - Participer à l’organisation des soldes;<br>
+                                - Encaisser les clients.
+                            </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' id='work6' name='works' type='radio'>
+                            <div class="relative">
+                            <label for='work6'>Chargé d'assistance automobile bilangue - Axa Partner (contrat saisonnier)</label>
+                            <span class='date'>2019, 2020, 2021 <br> <img src="Image/AXA.png" width="50"></span>
+                            <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                            <p>
+                                - Gérer les appels entrants et sortants;<br>
+                                - Organiser des prestations pour les clients en fonction de leur situation et des modalités de leur contrat;<br>
+                                - Faire le suivi des dossiers réclamations.<br>
+                            </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </body>
+    </html>
+    
