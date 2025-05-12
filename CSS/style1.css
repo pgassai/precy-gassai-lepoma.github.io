@@ -132,7 +132,7 @@ header {
 .animation > div > div {
   padding: 0.25rem 0.75rem;
   margin: 0;
-  display:inline-block;
+  display: inline-block;
 }
 
 .animation div:first-child {
@@ -168,9 +168,7 @@ header {
 }
 
 /* section abou*/
- section{
-    /*border: 5px solid salmon;*/
- }
+
 
 
 .about_name{
